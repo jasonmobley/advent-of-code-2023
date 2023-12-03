@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+    }
+  },
+  "compilerOptions": {
+    "lib": ["es2021"],
+    "module": "node16",
+    "target": "es2021",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node16"
+  }
+}
